@@ -15,6 +15,7 @@ ul,
 li {
   padding: 0px;
   margin: 0px;
+  list-style: none;
 }
 
 h1 {
@@ -34,12 +35,7 @@ a {
 header {
   display: grid;
   justify-items: center;
-  overflow-wrap: break-word;
-  margin-top: 60px;
-}
-
-.navegar li a:hover {
-  border: solid #e21 2px;
+  margin-top: 4rem;
 }
 
 .navegar {
@@ -54,6 +50,10 @@ header {
   padding: 15px 25px;
   border-radius: 4px;
   text-transform: uppercase;
+  border: solid #fff 2px;
+}
+.navegar li a:hover {
+  border: solid #e21 2px;
 }
 
 .conteudo {
@@ -62,9 +62,7 @@ header {
   grid-template-columns: 1fr 1fr;
   max-width: 1000px;
 }
-main {
-  all: none;
-}
+
 main {
   all: none;
   background: #fff;
